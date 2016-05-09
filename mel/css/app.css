@@ -1082,7 +1082,7 @@ h6 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: inherit;
+  color: #df2773;
   text-rendering: optimizeLegibility;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -1345,12 +1345,12 @@ kbd {
   padding: 0.85em 1em;
   margin: 0 1rem 1rem 0;
   font-size: 0.9rem;
-  background: #2199e8;
+  background: #df2773;
   color: #fff; }
   [data-whatinput="mouse"] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background: #1583cc;
+    background: #c21d61;
     color: #fff; }
   .button.tiny {
     font-size: 0.6rem; }
