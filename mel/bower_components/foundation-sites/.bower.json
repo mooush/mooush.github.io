@@ -1,0 +1,29 @@
+{
+  "name": "foundation-sites",
+  "main": [
+    "css/foundation.css",
+    "css/foundation.css.map",
+    "js/foundation.js"
+  ],
+  "ignore": [
+    "config",
+    "docs",
+    "lib",
+    "spec"
+  ],
+  "dependencies": {
+    "jquery": ">= 2.1.0",
+    "what-input": "~1.1.2"
+  },
+  "private": true,
+  "homepage": "https://github.com/zurb/foundation-sites-6",
+  "_release": "f95d62a8de",
+  "_resolution": {
+    "type": "branch",
+    "branch": "develop",
+    "commit": "f95d62a8ded1fd4320df9f399b9525318f1b889b"
+  },
+  "_source": "git://github.com/zurb/foundation-sites-6.git",
+  "_target": "develop",
+  "_originalSource": "zurb/foundation-sites-6"
+}
