@@ -1,0 +1,284 @@
+/* @override http://www.meerkatwebdesign.co.uk/css/meerkat_custom.css */
+
+/* @override http://meerkatwebdesign.co.uk/css/meerkat_custom.css */
+
+section {
+background: -moz-linear-gradient(
+        top, rgba(192, 192, 192, 0.8), rgba(255, 255, 255, 0.0));
+    background: -webkit-gradient(linear, left top, left bottom, from(
+        rgba(192, 192, 192, 0.8)), to(rgba(255, 255, 255, 0.0)));
+	padding: 5px 15px 15px;
+		background: url(/images/salvage.gif) fixed;
+	height: 370px;
+}
+
+.modal-body {
+	background-color: #000;
+}
+
+.modal-header {
+	background-color: #000;
+	border-bottom-style: none;
+}
+
+.modal-header h3 {
+	text-shadow: black 0px 0px 0px;
+}
+
+p.lead {
+	font-size: 18px;
+}
+
+.ornimental img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 40px;
+	padding-top: 60px;
+}
+
+
+
+section p {
+	color: #fff;
+}
+
+.meerkat_h1 {
+	background-image: url(/images/h1_bk.png);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+	padding-top: 41px;
+	color: #fff;
+	text-shadow: #63919e 4px 4px 0;
+	font: bold 6em 'Open Sans', sans-serif;
+}
+
+h3 {
+	color: #fff;
+	text-shadow: #5c8691 4px 4px 0;
+}
+
+header {
+
+}
+
+span.strike {
+	text-decoration: line-through;
+	text-shadow: #000000 0 0 0;
+	font-weight: bold;
+}
+
+.fp_big li {
+	list-style-type: none;
+	margin-left: -15px;
+}
+
+.navbar .brand {
+	font-size: 11px;
+}
+
+img.mrmeer {
+	position: relative;
+	top: 21px;
+}
+
+img.img-polaroid {
+	opacity: 0.24;
+}
+
+img.img-polaroid:hover {
+	opacity: 1;
+-webkit-transition: all .5s ease;
+		-moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+		transition: all .5s ease;
+}
+
+.fp_big .lead {
+	padding: 0;
+	margin: 0;
+}
+
+p.yorkshire_ting span {
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+h4 {
+	background-color: #fff;
+	padding-left: 6px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
+div.container {
+}
+
+/* Sticky footer styles
+      -------------------------------------------------- */
+
+      /* Wrapper for page content to push down footer */
+
+.p_title {
+	color: #fff;
+}
+
+body {
+	background: #7cb4c3 url(/images/bk.jpg) repeat;
+}
+
+#wrap {
+	padding-top: 60px;
+	background: url(/images/drip.png) no-repeat center top;
+}
+
+#wrap div.container div.row div.span4 h3 {
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+div.span4 {
+	margin-bottom: 20px;
+}
+
+#wrap div.container div.row div.span8 p.lead {
+	font-size: 190%;
+	color: #4b3c33;
+}
+
+#footer {
+	height: 41px;
+	padding-top: 144px;
+	background-color: #333;
+	background-image: url(/images/foot_bk.jpg);
+}
+
+p.yorkshire_ting {
+	margin-top: 140px;
+	color: #fff;
+	font-size: 20px;
+	padding-top: 33px;
+}
+
+.page-header {
+	border-bottom-style: none;
+	margin: 0;
+}
+
+.page-header p.lead {
+	padding-bottom: 34px;
+	
+	    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	padding-top: 0;
+	margin: 0;
+	color: #fff;
+}
+
+.full_pic { 
+
+	margin-top: 220px;
+	-webkit-box-shadow: 0px 0px 5px 0px #000;
+        
+        box-shadow: inset 0px 0px 5px 0px #000;
+	padding-bottom: 36px;
+	background: #9e0103 repeat fixed center center;
+}
+
+
+
+img.mrmeerbase {
+	margin-top: -55px;
+	
+}
+
+div.portfolio_stripe {
+	padding-top: 81px;
+	padding-bottom: 30px;
+	background: #9e0103 fixed;
+	margin-bottom: 180px;
+}
+
+span.whity {
+	color: #fff;
+}
+
+#wrap div.container div.row div.span8 p.lead span.strike {
+	text-decoration: line-through;
+}
+
+
+
+div.navbar.navbar-inverse.navbar-fixed-top {
+	-webkit-box-shadow:  0px 0px 40px 10px #4b6f79;
+        
+        box-shadow: 0px 0px 40px 10px #000;
+	opacity: 1;
+}
+
+@media (max-width: 480px) {
+
+.meerkat_h1 {
+	font-size: 6em;
+	text-shadow: #1392bb 6px 6px 0;
+	color: #fff;
+}
+
+.full_pic {
+	-webkit-box-shadow: 0px 0px 5px 0px #000;
+        
+        box-shadow: inset 0px 0px 5px 0px #000;
+	padding-bottom: 36px;
+	background: #fdfeff url(/images/connect-bg.png) repeat fixed center center;
+	margin-top: 0;
+	display: none;
+}
+
+#wrap div.full_pic {
+	background-size: 100% auto;
+
+	background: url(http://farm9.staticflickr.com/8437/7906662020_a596b2f9ef_h.jpg) no-repeat;
+	margin-top: 60px;
+	height: 460px;
+	display: none;
+}
+
+div.portfolio_stripe {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background: none fixed;
+	margin-bottom: 0;
+}
+
+#footer {
+	height: 120px;
+	padding-top: 29px;
+	background-color: transparent;
+	background-image: none;
+}
+
+#footer p {
+	color: #fff;
+}
+
+div.page-header {
+	padding: 0;
+}
+
+img.img-polaroid:hover {
+	opacity: 1;
+-webkit-transition: all .5s ease;
+		-moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+		transition: all .5s ease;
+}
+
+img.img-polaroid {
+	opacity: 1;
+}
+}
+
