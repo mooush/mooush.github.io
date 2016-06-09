@@ -5,13 +5,14 @@ body {
 .block {
 	display: block;
 	overflow: hidden;
-	background-color: #525b69;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	background: #525b69 url(http://www.biskit.co.uk/wp-content/uploads/2013/08/ChevinView.jpg) center;
 }
 
 h1 {
 	font-family: 'Lobster', cursive;
+	color: #f850c3;
 }
 
 a.button {
@@ -20,10 +21,19 @@ a.button {
 }
 
 h2 {
-	color: #3b3b41;
+	color: #fff;
 	position: relative;
 	left: 50px;
 	font: 5.5rem 'Passion One', cursive;
+}
+
+small {
+	color: #fff;
+	background-color: #191919;
+	padding: 12px;
+	float: left;
+	position: relative;
+	left: 16px;
 }
 
 .ani {
