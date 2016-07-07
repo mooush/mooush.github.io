@@ -23,3 +23,16 @@ a {
 	margin-top: 60px;
 	margin-bottom: 30px;
 }
+
+#ModalServices ul li {
+	border-bottom: 1px solid #df2673;
+	list-style-type: none;
+}
+
+#ModalServices ul {
+	margin: 0;
+}
+
+#ModalServices ul li.no-border {
+	border-bottom-style: none;
+}
