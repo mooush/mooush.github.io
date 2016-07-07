@@ -8,14 +8,51 @@
 	color: #fff;
 }
 
+.conditions p {
+	text-align: justify;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
+	color: #319db8;
 }
 
 a {
-	color: #6d5dce;
+	color: #e02673;
+}
+
+ul.menu {
+	background-color: transparent;
+}
+
+li.menu-text {
+	color: #fff;
+}
+
+div.top-bar {
+	background-color: #319db9;
+}
+
+div.top-bar a {
+	color: #fff;
+}
+
+div.top-bar a:hover {
+	position: relative;
+	top: 1px;
+}
+
+footer {
+	background-color: #319db9;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 50px;
+}
+
+footer a {
+	color: #fff;
 }
 
 
@@ -35,4 +72,8 @@ a {
 
 #ModalServices ul li.no-border {
 	border-bottom-style: none;
+}
+
+i.fa.fa-user-md.fa-5x {
+	color: #df2673;
 }
