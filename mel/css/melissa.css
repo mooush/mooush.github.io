@@ -1,10 +1,9 @@
 .callout {
-	background-image: url(../img/bg-test.jpg);
-	color: #fff;
+	color: #319db8;
 }
 
 .callout h1 {
-	color: #fff;
+	color: #d6d6d6;
 }
 
 p.lead.callout {
