@@ -1,5 +1,6 @@
 .callout {
 	color: #319db8;
+	background-color: #319db8;
 }
 
 .callout h1 {
@@ -7,9 +8,8 @@
 }
 
 p.lead.callout {
-	font-family: 'Slabo 27px', serif;
-	font-weight: bold;
-	color: #bed7df;
+	color: #fff;
+	font: bold 1.5em 'Slabo 27px', serif;
 }
 
 .conditions p {
@@ -71,12 +71,22 @@ footer a {
 }
 
 #ModalServices ul li {
-	border-bottom: 1px solid #df2673;
+	border-bottom: 1px solid #abf3ec;
 	list-style-type: none;
+	color: #319db7;
+	font-size: 1.4em;
+	line-height: 1.9em;
+}
+
+#ModalServices ol li {
+	border-bottom: 1px solid #abf3ec;
+	color: #319db7;
+	line-height: 1.9em;
 }
 
 #ModalServices ul {
 	margin: 0;
+	padding-top: 100px;
 }
 
 #ModalServices ul li.no-border {
@@ -85,4 +95,11 @@ footer a {
 
 i.fa.fa-user-md.fa-5x {
 	color: #319db7;
+}
+
+.intro {
+	-webkit-box-shadow: 0 20px 50px 1px rgba(224, 243, 249, 1);
+box-shadow: 0 20px 50px 1px rgba(224, 243, 249, 1);
+	padding-bottom: 60px;
+	margin-bottom: 100px;
 }
