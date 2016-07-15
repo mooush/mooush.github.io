@@ -92,6 +92,9 @@ footer a {
  {
 	padding-bottom: 100px;
 	background-image: url(../img/bg-modal.jpg);
+	background-size: cover;
+	-moz-background-size: cover;
+	
 }
 
 #ModalServices ul li.no-border {
