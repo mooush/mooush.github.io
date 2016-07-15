@@ -91,6 +91,7 @@ footer a {
 .reveal
  {
 	padding-bottom: 100px;
+	background-image: url(../img/bg-modal.jpg);
 }
 
 #ModalServices ul li.no-border {
