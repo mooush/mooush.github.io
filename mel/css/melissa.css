@@ -15,6 +15,10 @@ p.lead.callout {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
+	color: #c8c8c8;
+}
+
+p.lead {
 	color: #319db8;
 }
 
@@ -102,5 +106,5 @@ i.fa.fa-user-md.fa-5x {
 	padding-bottom: 60px;
 	margin-bottom: 100px;
 	border-bottom: 1px dotted #319db8;
-	padding-top: 50px;
+	padding-top: 80px;
 }
