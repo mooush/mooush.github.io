@@ -1,6 +1,7 @@
 body {
 	font: 1.1em 'Lato', sans-serif;
 	letter-spacing: .01em;
+	color: #319db8;
 }
 
 .callout h1 {
@@ -114,12 +115,12 @@ i.fa.fa-user-md.fa-5x {
 
 	padding-bottom: 60px;
 	margin-bottom: 100px;
-	border-bottom: 1px dotted #319db8;
+	border-bottom: 1px solid #d6edf5;
 	padding-top: 80px;
 	background-image: url(../img/mel-hair.jpg);
 	background-size: cover;
 }
 
 .intro h1 {
-	color: #fff;
+	color: #b4d2cc;
 }
