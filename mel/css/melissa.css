@@ -1,10 +1,14 @@
+body {
+	font: 1.1em 'Lato', sans-serif;
+	letter-spacing: .01em;
+}
+
 .callout h1 {
 	color: #d6d6d6;
 }
 
 p.lead.callout {
 	color: #fff;
-	font: bold 1.5em 'Slabo 27px', serif;
 }
 
 .conditions p {
@@ -13,7 +17,7 @@ p.lead.callout {
 
 
 h1, h2, h3, h4, h5, h6, small {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 	color: #319db8;
 }
@@ -61,6 +65,7 @@ footer {
 
 footer a {
 	color: #fff;
+	font-size: .8em;
 }
 
 
@@ -111,8 +116,10 @@ i.fa.fa-user-md.fa-5x {
 	margin-bottom: 100px;
 	border-bottom: 1px dotted #319db8;
 	padding-top: 80px;
+	background-image: url(../img/mel-hair.jpg);
+	background-size: cover;
 }
 
 .intro h1 {
-	color: #d7d7d7;
+	color: #fff;
 }
