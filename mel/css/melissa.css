@@ -4,10 +4,6 @@ body {
 	color: #319db8;
 }
 
-.callout h1 {
-	color: #d6d6d6;
-}
-
 p.lead.callout {
 	color: #fff;
 }
@@ -66,6 +62,10 @@ footer {
 
 footer small {
 	color: #fff;
+	font-weight: normal;
+	font-style: normal;
+	float: right;
+	font-size: 10px;
 }
 
 footer a {
@@ -121,10 +121,9 @@ i.fa.fa-user-md.fa-5x {
 	margin-bottom: 100px;
 	border-bottom: 1px solid #d6edf5;
 	padding-top: 80px;
-	background-image: url(../img/mel-hair.jpg);
 	background-size: cover;
 }
 
 .intro h1 {
-	color: #b4d2cc;
+	color: #d3d3d3;
 }
