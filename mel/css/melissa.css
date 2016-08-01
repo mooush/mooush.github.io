@@ -127,3 +127,10 @@ i.fa.fa-user-md.fa-5x {
 .intro h1 {
 	color: #d3d3d3;
 }
+
+hr {
+	-webkit-box-shadow: 0 5px 5px 2px rgba(0,0,0,0.051);
+box-shadow: 0 5px 5px 2px rgba(0,0,0,0.051);
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
