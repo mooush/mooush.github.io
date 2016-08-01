@@ -64,6 +64,10 @@ footer {
 	margin-top: 50px;
 }
 
+footer small {
+	color: #fff;
+}
+
 footer a {
 	color: #fff;
 	font-size: .8em;
