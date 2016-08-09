@@ -4,10 +4,6 @@ body {
 	color: #319db8;
 }
 
-.tooltip {
-	font-size: 1em;
-}
-
 p.lead.callout {
 	color: #fff;
 }
@@ -29,6 +25,11 @@ p.lead {
 
 a {
 	color: #e02673;
+}
+
+.conditions {
+	margin-top: 60px;
+	margin-bottom: 30px;
 }
 
 ul.menu {
@@ -81,12 +82,6 @@ footer a:hover {
 	color: #000;
 }
 
-
-.conditions {
-	margin-top: 60px;
-	margin-bottom: 30px;
-}
-
 #ModalServices ul li {
 	border-bottom: 1px solid #abf3ec;
 	list-style-type: none;
@@ -106,21 +101,39 @@ footer a:hover {
 
 }
 
+#ModalServices ul li.no-border {
+	border-bottom-style: none;
+}
+
 .reveal
  {
-	background: transparent url(../img/bg-modal.jpg) no-repeat center center;
+	background: transparent url(../img/bg-modal.jpg) no-repeat 0 top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='path/to/image/1.jpg',sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='path/to/image/1.jpg',sizingMethod='scale')";
-	padding-bottom: 100px;
 	border-bottom: 30px solid rgba(49,157,184, 1);
+	border-top: 5px solid rgba(49,157,184, 1);
+	padding-bottom: 100px;
 }
 
-#ModalServices ul li.no-border {
-	border-bottom-style: none;
+.reveal button.close-button {
+	font-size: 3em;
+	color: #fff;
+	background-color: #319db8;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 2px;
+}
+
+.tooltip {
+	font-size: 1em;
+}
+
+span.has-tip.top {
+	border-style: none;
 }
 
 i.fa.fa-user-md.fa-5x {
