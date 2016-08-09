@@ -4,6 +4,10 @@ body {
 	color: #319db8;
 }
 
+.tooltip {
+	font-size: 1em;
+}
+
 p.lead.callout {
 	color: #fff;
 }
@@ -73,6 +77,10 @@ footer a {
 	font-size: .8em;
 }
 
+footer a:hover {
+	color: #000;
+}
+
 
 .conditions {
 	margin-top: 60px;
@@ -107,6 +115,8 @@ footer a {
 	background-size: cover;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='path/to/image/1.jpg',sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='path/to/image/1.jpg',sizingMethod='scale')";
+	padding-bottom: 100px;
+	border-bottom: 30px solid rgba(49,157,184, 1);
 }
 
 #ModalServices ul li.no-border {
@@ -144,5 +154,5 @@ box-shadow: 0 5px 5px 2px rgba(0,0,0,0.04);
 }
 
 #ModalServices h3 {
-	margin-bottom: 200px;
+	margin-bottom: 4rem;
 }
