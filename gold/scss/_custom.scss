@@ -1,0 +1,530 @@
+/* @group CUSTOM */
+
+body {
+	background: url(../img/modal-bg.jpg) no-repeat fixed center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
+	height: auto;
+}
+
+.row {
+	min-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #feffff;
+}
+
+/* HEAD */
+
+.head {
+	  background-color: rgba(13,64,69,0.45);
+	-webkit-box-shadow: 0 10px 0 0 rgba(0,0,0,0.2);
+	box-shadow: 0 10px 0 0 rgba(0,0,0,0.2);
+	border-bottom: 1px solid #5b565b;
+}
+
+.logo {
+	margin-top: 12px;
+
+}
+
+/* ICON BAR */
+
+.menu {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.icon-bar {
+	margin-bottom: -7px;
+	background-color: transparent;
+}
+
+/* CONTENT */
+
+.gallery {
+	padding: 50px 50px 100px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.box.panel {
+background-image: linear-gradient(90deg, rgb(255, 235, 59) 7%, rgb(241, 196, 15) 100%);background-image: -moz-linear-gradient(left, rgb(255, 235, 59) 7%, rgb(241, 196, 15) 100%);background-image: -webkit-linear-gradient(left, rgb(255, 235, 59) 7%, rgb(241, 196, 15) 100%);background-image: -o-linear-gradient(left, rgb(255, 235, 59) 7%, rgb(241, 196, 15) 100%);background-image: -ms-linear-gradient(left, rgb(255, 235, 59) 7%, rgb(241, 196, 15) 100%);
+	z-index: 0;
+	opacity: 0.86;
+}
+
+.box .welcome {
+
+	padding: 50px;
+}
+
+.box .welcome h1 {
+	line-height: 45px;
+	color: #fff;
+	text-shadow: rgba(0,0,0,0.3) 5px 5px 0;
+}
+
+.box.box-right {
+	box-shadow: inset 0 10px 0 0 rgba(0,0,0,0.1);
+	padding: 50px;
+}
+
+.box .button {
+	position: relative;
+	left: 30px;
+	bottom: 20px;
+}
+
+.box-right .button {
+	margin-bottom: 50px;
+	margin-left: 10px;
+}
+
+a.button {
+	background-color: rgba(0,0,0,0.2);
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	box-shadow: 0 10px 0 0 rgba(0,0,0,0.2);
+	letter-spacing: 4px;
+	color: #fff;
+}
+
+a.button:hover {
+	box-shadow: 0 5px 0 0 rgba(0,0,0,0.2);
+}
+
+div.welcome {
+	background-color: rgba(254, 203, 0, 0.4);
+}
+
+.box h2 {
+	line-height: 40px;
+	color: #fff;
+	font-size: 1.7em;
+	padding: 40px;
+ text-shadow: 1px 1px rgba(0, 0, 0, 0.3),
+  2px 2px rgba(0, 0, 0, 0.005),
+   3px 3px rgba(0, 0, 0, 0.005),
+    4px 4px rgba(0, 0, 0, 0.005),
+     5px 5px rgba(0, 0, 0, 0.005),
+      6px 6px rgba(0, 0, 0, 0.005),
+       7px 7px rgba(0, 0, 0, 0.005),
+        8px 8px rgba(0, 0, 0, 0.005),
+         9px 9px rgba(0, 0, 0, 0.005),
+          10px 10px rgba(0, 0, 0, 0.005),
+           11px 11px rgba(0, 0, 0, 0.005),
+            12px 12px rgba(0, 0, 0, 0.005),
+             13px 13px rgba(0, 0, 0, 0.005),
+              14px 14px rgba(0, 0, 0, 0.005),
+               15px 15px rgba(0, 0, 0, 0.005),
+                16px 16px rgba(0, 0, 0, 0.005),
+                 17px 17px rgba(0, 0, 0, 0.005),
+                  18px 18px rgba(0, 0, 0, 0.005),
+                   19px 19px rgba(0, 0, 0, 0.005),
+                    20px 20px rgba(0, 0, 0, 0.005),
+                     21px 21px rgba(0, 0, 0, 0.005),
+                      22px 22px rgba(0, 0, 0, 0.005),
+                       23px 23px rgba(0, 0, 0, 0.005),
+                        24px 24px rgba(0, 0, 0, 0.005),
+                         25px 25px rgba(0, 0, 0, 0.005),
+                          26px 26px rgba(0, 0, 0, 0.005),
+                           27px 27px rgba(0, 0, 0, 0.005),
+                            28px 28px rgba(0, 0, 0, 0.005),
+                             29px 29px rgba(0, 0, 0, 0.005),
+                              30px 30px rgba(0, 0, 0, 0.005);
+  
+  
+}
+
+/* ::::::: COURSES */
+
+#courses {
+  background: url(../img/course-bg.jpg) no-repeat fixed center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  height: auto;
+}
+
+#courses h3 {
+	color: #ffcb00;
+}
+
+.panel.course-info {
+	border-style: none;
+	margin-bottom: 0;
+	background-color: rgba(254, 203, 0, 0.6);
+}
+
+.panel.course-dates {
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-bottom: 0;
+	border-style: none;
+}
+
+.panel.course-info p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.panel.course-info p::first-letter {
+	font-family: 'Roboto Condensed', sans-serif;
+    font-size: 140%;
+    color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.04);
+	padding-left: 5px;
+	-webkit-box-shadow: 20px 0 0 0 rgba(0,0,0,0.02);
+box-shadow: 20px 0 0 0 rgba(0,0,0,0.02);
+}
+
+.course-dates h2, .course-info h2 {
+	padding-left: 30px;
+	padding-bottom: 10px;
+	padding-top: 30px;
+}
+
+.event {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #3c4044;
+	-webkit-box-shadow: 0 3px 10px 0 rgba(0,0,0,.2);
+	box-shadow: 0 3px 10px 0 rgba(0,0,0,.2);
+	padding-top: 30px;
+	border-top: 1px solid #5e7067;
+}
+
+.event-date {
+	background-color: #ffcb00;
+	width: 100px;
+	text-align: center;
+	-webkit-box-shadow: 10px 10px 0 0 rgba(0,0,0,0.3);
+	box-shadow: 10px 10px 0 0 rgba(0,0,0,0.3);
+}
+
+p.event-month {
+	margin-bottom: 0;
+	border-bottom-style: dotted;
+	border-bottom-width: 2px;
+	background-color: #ffb426;
+}
+
+p.event-day {
+	font-weight: bold;
+	text-align: center;
+	font-size: 2em;
+	text-shadow: 2px 1px 0px #4d6051, 4px 6px 0px rgba(0,0,0,0.07);
+}
+
+.event .full {
+	text-decoration: line-through;
+}
+
+.course-info .accordion, {
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.course-info a.button {
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: rgba(254, 203, 0, 0.4);
+	margin-bottom: 100px;
+}
+
+
+
+.event, .event-first, .event-last {
+	position: relative;
+	padding-left: 20px;
+	margin-bottom: 0;
+}
+
+#modalApply {
+		background: url(../img/modal-bg.jpg) no-repeat fixed center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* ::::::: FOOTER */
+
+.footer {
+	
+	
+}
+
+.footer-left {
+	padding: 50px;
+}
+
+/* SOCIAL LINKS PADDING */
+
+.no-bullet i {
+	padding-right: 10px;
+	position: relative;
+	top: 5px;
+}
+
+i.fa.fa-envelope.fa-2x {
+
+	position: relative;
+	top: 2px;
+}
+
+span.postfix {
+
+}
+
+.footer .subscribe input {
+
+	color: #fff;
+	border-right-style: none;
+
+}
+
+.footer .alice-logo {
+	background-color: rgba(42,38,14,0.6);
+}
+
+.footer .alice-logo h4 {
+	color: #fff;
+	margin-top: 30px;
+}
+
+.footer .subscribe {
+	background-image: linear-gradient(90deg, rgb(255, 235, 59) 7%, rgb(241, 196, 15) 100%);background-image: -moz-linear-gradient(left, rgb(255, 235, 59) 7%, rgb(241, 196, 15) 100%);background-image: -webkit-linear-gradient(left, rgb(255, 235, 59) 7%, rgb(241, 196, 15) 100%);background-image: -o-linear-gradient(left, rgb(255, 235, 59) 7%, rgb(241, 196, 15) 100%);background-image: -ms-linear-gradient(left, rgb(255, 235, 59) 7%, rgb(241, 196, 15) 100%);
+}
+
+.footer .alice-logo, .footer .photo, .footer .subscribe {
+	padding: 50px 50px 100px;
+}
+
+.photo {
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+	background: url(https://unsplash.it/g/1200/900?random) fixed;
+}
+
+/* My Comment */
+
+.panel {
+	background-color: transparent;
+	padding: 0;
+	margin: 0;
+	border-style: none;
+}
+
+/* @end */
+
+.course-info li.accordion-navigation.active, .course-info li.accordion-navigation.active h3, .course-info li.accordion-navigation a, div#panel1a.content.active, #panel1 a h3 {
+	color: #54768d;
+}
+
+#panel1a h3 {
+	color: #000;
+}
+
+/* My Comment */
+
+/* My Comment */
+
+/* My Comment */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+#to-the-top {
+
+position: fixed;
+
+width: 100%;
+
+	background-color: rgba(0,0,0,0.85);
+	bottom: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	z-index: 10;
+}
+
+#social {
+
+}
+
+nav {
+	margin: 0px;
+	width: 218px;
+}
+
+nav ul li {
+	margin-bottom: 0px;
+	position: relative;
+	list-style-type: none;
+}
+
+nav > ul > li > a {
+	background-color: #ded0bb;
+	border: 4px solid #5a504a;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	color: #645650;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	width: 32px;
+}
+
+nav ul li ul {
+	background: #f6eddb; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f6eddb 0%, #ccbba4 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6eddb), color-stop(100%,#ccbba4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f6eddb 0%,#ccbba4 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f6eddb 0%,#ccbba4 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f6eddb 0%,#ccbba4 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f6eddb 0%,#ccbba4 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6eddb', endColorstr='#ccbba4',GradientType=0 ); /* IE6-9 */
+	border-radius: 16px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	box-shadow: 0px 1px 2px #352f2c;
+	display: block;
+	height: 40px;
+	left: 52px;
+	padding: 0 8px;
+	position: absolute;
+	top: 0;
+}
+
+nav ul li ul:before {
+	background: #e7dbc7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e7dbc7 0%, #dbcdb8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e7dbc7), color-stop(100%,#dbcdb8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e7dbc7 0%,#dbcdb8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e7dbc7 0%,#dbcdb8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e7dbc7 0%,#dbcdb8 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e7dbc7 0%,#dbcdb8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7dbc7', endColorstr='#dbcdb8',GradientType=0 ); /* IE6-9 */
+	content: "";
+	display: block;
+	height: 8px;
+	left: -4px;
+	position: absolute;
+	top: 16px;
+	transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	width: 8px;
+}
+
+nav ul li ul li {
+	float: left;
+}
+
+nav ul li ul li a {
+	border: none;
+	color: #645650;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 30px;
+}
+
+.facebook:hover { color: #3B5998; }
+.twitter:hover { color: #00aced; }
+.google-plus:hover { color: #C63D2D; }
+.linkedin:hover { color: #4875B4; }
+.github:hover { color: #000; }
+
+/* ICON BAR HOVER */
+
+.icon-bar a.item:hover {
+-webkit-transition: background .5s ease-in;
+-moz-transition: background .5s ease-in;
+-ms-transition: background .5s ease-in;
+-o-transition: background .5s ease-in;
+transition: background .5s ease-in;
+}
+
+/* inline fancy links */
+
+.course-info a.inline-link {
+
+	color: #fff;
+	background-color: rgba(0,0,0,0.1);
+	padding: 2px 8px 4px 6px;
+}
+
+.course-info a.inline-link:hover {
+
+	color: #fff;
+	background-color: rgba(0,0,0,0.4);
+	-webkit-transition: background .5s ease-in;
+-moz-transition: background .5s ease-in;
+-ms-transition: background .5s ease-in;
+-o-transition: background .5s ease-in;
+transition: background .5s ease-in;
+}
+
+/* TEMP */
+
+.welcome h1 span {
+	font-size: 63px;
+}
+
+.gallery h2 {
+	text-shadow: #d5d5d5 0 -1px 0;
+	color: #656466;
+}
+
+.course-dates h2 {
+	text-shadow: #434343 0 -2px 0;
+}
+
+.course-info h2 {
+	text-shadow: #cbb866 0 -1px 0;
+}
+
+#courses h2 {
+	color: #fff;
+}
+
+#courses h4 {
+	color: #fff;
+}
+
+#courses p {
+	color: #fff;
+}
+
+h2#modalTitle {
+	color: #7b7b7b;
+}
+
+/* TEST */
+
+.gallery .thumb {
+	min-height: 200px;
+	min-width: 200px;
+}
+
