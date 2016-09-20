@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="utf-8" />
+    <title>slabText &mdash; a jQuery plugin for creating big, bold &amp; responsive headlines</title>
+    <!-- slabtext stylesheet -->
+    <link href="css/slabtext.css" rel="stylesheet" type="text/css" />
+    <!-- demo styles inline -->
+
+    <!--[if lte IE 7]>
+    <style>
+    body
+        {
+        width:960px;
+        margin:0 auto;
+        }
+    </style>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+
+    <h1>The Sisters Brothers</h1>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/jquery.slabtext.min.js"></script>
+    <script>
+    // Function to slabtext the H1 headings
+    function slabTextHeadlines() {
+        $("h1").slabText({
+            // Don't slabtext the headers if the viewport is under 380px
+            "viewportBreakpoint":380
+        });
+    };
+
+    // Load fonts using google font loader
+    var WebFontConfig = {
+        google: { families: [ 'Open+Sans:400,700:latin', 'Oswald:700:latin' ] },
+        // slabText the headers when the font has finished loading (or not)
+        fontactive: slabTextHeadlines,
+        fontinactive: slabTextHeadlines
+    };
+    (function() {
+        var wf = document.createElement('script');
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })();
+    </script>
+</body>
+</html>
