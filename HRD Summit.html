@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 	<head>
-		<!-- NAME: 1 COLUMN - BANDED -->
+		<!-- NAME: 1:3 COLUMN - BANDED -->
 		<!--[if gte mso 15]>
 		<xml>
 			<o:OfficeDocumentSettings>
@@ -280,12 +280,46 @@
 			/*@editable*/text-decoration:underline;
 		}
 	/*
+	@tab Columns
+	@section Column Style
+	@tip Set the background color and borders for your email's columns.
+	*/
+		#templateColumns{
+			/*@editable*/background-color:#ffffff;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:2px solid #EAEAEA;
+			/*@editable*/padding-top:0;
+			/*@editable*/padding-bottom:9px;
+		}
+	/*
+	@tab Columns
+	@section Column Text
+	@tip Set the styling for your email's column text. Choose a size and color that is easy to read.
+	*/
+		#templateColumns .columnContainer .mcnTextContent,#templateColumns .columnContainer .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Columns
+	@section Column Link
+	@tip Set the styling for your email's column links. Choose a color that helps them stand out from your text.
+	*/
+		#templateColumns .columnContainer .mcnTextContent a,#templateColumns .columnContainer .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
 	@tab Footer
 	@section Footer Style
 	@tip Set the background color and borders for your email's footer area.
 	*/
 		#templateFooter{
-			/*@editable*/background-color:#FAFAFA;
+			/*@editable*/background-color:#ffffff;
 			/*@editable*/border-top:0;
 			/*@editable*/border-bottom:0;
 			/*@editable*/padding-top:9px;
@@ -332,6 +366,12 @@
 }	@media only screen and (max-width: 480px){
 		#bodyCell{
 			padding-top:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.columnWrapper{
+			max-width:100% !important;
+			width:100% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
@@ -502,6 +542,17 @@
 }	@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
+	@section Column Text
+	@tip Make the column text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		#templateColumns .columnContainer .mcnTextContent,#templateColumns .columnContainer .mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
 	@section Footer Text
 	@tip Make the footer content text larger in size for better readability on small screens.
 	*/
@@ -544,7 +595,7 @@
                         
                         <td class="mcnTextContent" style="padding-top:0; padding-left:18px; padding-bottom:9px; padding-right:18px;" valign="top">
                         
-                            HRD Awards - Deadline for entries
+                            <span style="font-size:11px">HR Directors Summit | 31st Jan - 1st Feb 2017</span>
                         </td>
                     </tr>
                 </tbody></table>
@@ -560,7 +611,7 @@
                         
                         <td class="mcnTextContent" style="padding-top:0; padding-left:18px; padding-bottom:9px; padding-right:18px;" valign="top">
                         
-                            <a href="*|ARCHIVE|*" target="_blank">View this email in your browser</a>
+                            <span style="font-size:12px"><a href="*|ARCHIVE|*" target="_blank">View this email in your browser</a></span>
                         </td>
                     </tr>
                 </tbody></table>
@@ -600,11 +651,47 @@
                 <td style="padding:0px" class="mcnImageBlockInner" valign="top">
                     <table class="mcnImageContentContainer" style="min-width:100%;" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tbody><tr>
-                            <td class="mcnImageContent" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top">
+                            <td class="mcnImageContent" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0;" valign="top">
                                 
-                                    <a href="https://www.hrdistinctionawards.com/" title="" class="" target="_blank">
-                                        <img alt="" src="https://gallery.mailchimp.com/7a04711f6fe64e5092f8042f8/images/35724b3e-8b64-42f0-9bf8-84976a34049a.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="middle" width="600">
-                                    </a>
+                                    
+                                        <img alt="" src="https://gallery.mailchimp.com/a13376bb3db01405b82edda38/images/26900529-6c49-4b9f-9b0c-55a999a67445.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="left" width="600">
+                                    
+                                
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table><table class="mcnImageBlock" style="min-width:100%;" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody class="mcnImageBlockOuter">
+            <tr>
+                <td style="padding:0px" class="mcnImageBlockInner" valign="top">
+                    <table class="mcnImageContentContainer" style="min-width:100%;" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody><tr>
+                            <td class="mcnImageContent" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0;" valign="top">
+                                
+                                    
+                                        <img alt="" src="https://gallery.mailchimp.com/a13376bb3db01405b82edda38/images/d76e3efa-f52b-407e-8918-908af208c699.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="left" width="600">
+                                    
+                                
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table><table class="mcnImageBlock" style="min-width:100%;" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody class="mcnImageBlockOuter">
+            <tr>
+                <td style="padding:0px" class="mcnImageBlockInner" valign="top">
+                    <table class="mcnImageContentContainer" style="min-width:100%;" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody><tr>
+                            <td class="mcnImageContent" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0;" valign="top">
+                                
+                                    
+                                        <img alt="" src="https://gallery.mailchimp.com/a13376bb3db01405b82edda38/images/f4571317-08dd-4cd4-b300-a7a79e70feef.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="left" width="600">
+                                    
                                 
                             </td>
                         </tr>
@@ -620,9 +707,9 @@
                         <tbody><tr>
                             <td class="mcnImageContent" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top">
                                 
-                                    <a href="https://hrdistinction.awardsplatform.com/" title="" class="" target="_blank">
-                                        <img alt="" src="https://gallery.mailchimp.com/7a04711f6fe64e5092f8042f8/images/fdedc68f-14f8-4a61-b8da-b76229fc8852.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="middle" width="600">
-                                    </a>
+                                    
+                                        <img alt="" src="https://gallery.mailchimp.com/a13376bb3db01405b82edda38/images/73f17408-e0d5-4213-a1ae-6ace05ba9036.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="middle" width="600">
+                                    
                                 
                             </td>
                         </tr>
@@ -647,20 +734,17 @@
                         
                         <td class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;" valign="top">
                         
-                            <div>
-<div><br>
-<span style="font-size:12px">Dear <span style="color: #FF0000;">*First Name*</span>,</span></div>
-
-<div>&nbsp;</div>
-
-<div><span style="font-size:12px">The HR Distinction Awards will be taking place in January and the deadline for entries is fast approaching – next <span class="aBn" data-term="goog_1390205174" tabindex="0"><span class="aQJ">Friday, the 7th of October</span></span>.</span></div>
-
-<div><span style="font-size:12px">I’m sure that <span style="color: #FF0000;">*Company Name*</span> have implemented many potential award winning initiatives this year and we would love to hear about them – I’m sure that you peers would too! </span></div>
-
-<div><span style="font-size:12px">Want to enhance your chance of winning? Explore last year’s winning entry from Sony Music Entertainment …</span><br>
-&nbsp;</div>
-</div>
-
+                            <br>
+<span style="font-size:12px">Dear <span style="color: #FF0000;">*First Name*</span>,<br>
+<br>
+The HR Directors Summit attracts over 700 HR Professionals, of which 75+% are Director, VP or CHRO level.<br>
+<br>
+This January, 100+ leading solutions providers from across the HR industry will gather to showcase their products/services to this unique audience.<br>
+<br>
+<strong>To get involved you need to be quick!<br>
+<br>
+Many of our stands have already been snapped up:</strong></span><br>
+&nbsp;
                         </td>
                     </tr>
                 </tbody></table>
@@ -684,7 +768,7 @@
                             <td class="mcnImageContent" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top">
                                 
                                     
-                                        <img alt="" src="https://gallery.mailchimp.com/7a04711f6fe64e5092f8042f8/images/91b46485-71db-4442-b459-b794c901c609.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="middle" width="600">
+                                        <img alt="" src="https://gallery.mailchimp.com/a13376bb3db01405b82edda38/images/4a37f682-d7b3-418e-aa71-6550c3431908.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="middle" width="600">
                                     
                                 
                             </td>
@@ -712,114 +796,7 @@
 									<![endif]-->
 									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
 										<tr>
-                                			<td valign="top" class="bodyContainer"><table class="mcnBoxedTextBlock" style="min-width:100%;" border="0" cellpadding="0" cellspacing="0" width="100%">
-    <!--[if gte mso 9]>
-	<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
-	<![endif]-->
-	<tbody class="mcnBoxedTextBlockOuter">
-        <tr>
-            <td class="mcnBoxedTextBlockInner" valign="top">
-                
-				<!--[if gte mso 9]>
-				<td align="center" valign="top" width="300">
-				<![endif]-->
-                <table class="mcnBoxedTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="300">
-                    <tbody><tr>
-                        
-                        <td class="mcnBoxedTextContentColumn" style="padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px;">
-                        
-                            <table class="mcnTextContentContainer" style="min-width: 100% ! important;background-color: #D9B53B;" border="0" cellpadding="18" cellspacing="0" width="100%">
-                                <tbody><tr>
-                                    <td style="color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: left;" class="mcnTextContent" valign="top">
-                                        <div>
-<h2 class="null"><strong>OBJECTIVE:</strong></h2>
-
-<div><br>
-<span style="font-size:12px"><span style="color: #000000;"><strong>2 Simple Goals</strong></span></span></div>
-
-<div>&nbsp;</div>
-
-<div><span style="font-size:12px"><span style="color: #000000;"><em><strong>Getting the most out of an engaged workforce.&nbsp;</strong></em></span></span></div>
-
-<div><span style="font-size:12px"><span style="color: #000000;">People love what they do at Sony Music - so it is not about getting them to stay but connecting a global business to excite and &nbsp;inspire our talent with the possibilities available to them. That is where our innovative edge will come from.</span></span></div>
-
-<div>&nbsp;</div>
-
-<div><span style="font-size:12px"><span style="color: #000000;"><strong>Continued investment in our early career pipeline.&nbsp;</strong></span></span></div>
-
-<div><span style="font-size:12px"><span style="color: #000000;">The business is all about investing in talent. We are showing we take our internal talent as seriously as we do our artists.</span></span><br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-&nbsp;</div>
-</div>
-
-                                    </td>
-                                </tr>
-                            </tbody></table>
-                        </td>
-                    </tr>
-                </tbody></table>
-				<!--[if gte mso 9]>
-				</td>
-				<![endif]-->
-                
-				<!--[if gte mso 9]>
-				<td align="center" valign="top" width="300">
-				<![endif]-->
-                <table class="mcnBoxedTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="300">
-                    <tbody><tr>
-                        
-                        <td class="mcnBoxedTextContentColumn" style="padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px;">
-                        
-                            <table class="mcnTextContentContainer" style="min-width: 100% ! important;background-color: #D9B53B;" border="0" cellpadding="18" cellspacing="0" width="100%">
-                                <tbody><tr>
-                                    <td style="color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: left;" class="mcnTextContent" valign="top">
-                                        <h2 class="null"><span style="color:#000000">RESULTS:</span></h2>
-
-<div><br>
-<span style="font-size:12px"><span style="color: #000000;">In a business context the program has produced some amazing innovation stories:</span></span></div>
-
-<div>
-<div>
-<hr><span style="font-size:12px"><span style="color: #000000;"><em><strong>External recognition of new ways to develop artists</strong></em></span></span>
-
-<hr><span style="font-size:12px"><span style="color: #000000;"><em><strong>New partnerships emerging between SME and exciting new business’ such as Uber&nbsp;</strong></em></span></span>
-
-<hr><span style="font-size:12px"><span style="color: #000000;"><em><strong>Maximising untapped revenue in our back catalogue</strong></em></span></span>
-
-<hr><span style="font-size:12px"><span style="color: #000000;"><em><strong>New deals with High Net Worth clients in Asia.</strong></em></span></span>
-
-<hr></div>
-
-<div><span style="font-size:12px"><span style="color: #000000;">We have also seen results on a broader cultural level such as changing perception of innovation and risk. It is also recognising that innovation can come from anywhere and can start small. A great example of how the learning can get transferred easily when it is the right thing and right time to learn it.</span></span><br>
-<br>
-&nbsp;</div>
-</div>
-
-                                    </td>
-                                </tr>
-                            </tbody></table>
-                        </td>
-                    </tr>
-                </tbody></table>
-				<!--[if gte mso 9]>
-				</td>
-				<![endif]-->
-                
-				<!--[if gte mso 9]>
-                </tr>
-                </table>
-				<![endif]-->
-            </td>
-        </tr>
-    </tbody>
-</table><table class="mcnImageBlock" style="min-width:100%;" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                			<td valign="top" class="bodyContainer"><table class="mcnImageBlock" style="min-width:100%;" border="0" cellpadding="0" cellspacing="0" width="100%">
     <tbody class="mcnImageBlockOuter">
             <tr>
                 <td style="padding:0px" class="mcnImageBlockInner" valign="top">
@@ -827,9 +804,9 @@
                         <tbody><tr>
                             <td class="mcnImageContent" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top">
                                 
-                                    <a href="https://hrdistinction.awardsplatform.com/" title="" class="" target="_blank">
-                                        <img alt="" src="https://gallery.mailchimp.com/7a04711f6fe64e5092f8042f8/images/3e9c42dc-379d-4645-88a6-98fbf13b9926.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="middle" width="600">
-                                    </a>
+                                    
+                                        <img alt="" src="https://gallery.mailchimp.com/a13376bb3db01405b82edda38/images/ac8370a2-2e9b-42c8-966a-3b4ce0270463.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="middle" width="600">
+                                    
                                 
                             </td>
                         </tr>
@@ -846,7 +823,7 @@
                             <td class="mcnImageContent" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top">
                                 
                                     
-                                        <img alt="" src="https://gallery.mailchimp.com/7a04711f6fe64e5092f8042f8/images/b1fb752e-5122-4a05-b6e9-6be26ac35dbb.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="middle" width="600">
+                                        <img alt="" src="https://gallery.mailchimp.com/a13376bb3db01405b82edda38/images/dfa2fd81-7605-4c3d-a0fa-b730734d173f.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="middle" width="600">
                                     
                                 
                             </td>
@@ -870,12 +847,13 @@
                 <table style="max-width:100%; min-width:100%;" class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tbody><tr>
                         
-                        <td class="mcnTextContent" style="padding: 0px 18px 9px; font-size: 12px;" valign="top">
+                        <td class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;" valign="top">
                         
-                            <br>
-But that’s Sony Music Entertainment – what are <span style="color:#FF0000">*Company Name*</span> doing to enhance your people strategy?<br>
+                            <h2 class="null"><br>
+Want to know more?</h2>
 <br>
-We hope you found this useful and now feel ready to submit you winning (fingers crossed!) entry.
+<span style="font-size:12px">Get in touch or check out our Sponsor Zone for delegate lists, packages and exhibitions showcase </span><br>
+&nbsp;
                         </td>
                     </tr>
                 </tbody></table>
@@ -889,96 +867,6 @@ We hope you found this useful and now feel ready to submit you winning (fingers 
 				<![endif]-->
             </td>
         </tr>
-    </tbody>
-</table><table class="mcnImageGroupBlock" border="0" cellpadding="0" cellspacing="0" width="100%">
-    <tbody class="mcnImageGroupBlockOuter">
-        
-            <tr>
-                <td style="padding:9px" class="mcnImageGroupBlockInner" valign="top">
-                    
-                    <table class="mcnImageGroupContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="273">
-                            <tbody><tr>
-                                <td class="mcnImageGroupContent" style="padding-left: 9px; padding-top: 0; padding-bottom: 0;" valign="top">
-                                
-                                    <a href="https://hrdistinction.awardsplatform.com/" title="" class="" target="_blank">
-                                        <img alt="" src="https://gallery.mailchimp.com/7a04711f6fe64e5092f8042f8/images/0eb0c49e-1755-44f6-84d5-9ba2e8904853.jpg" style="max-width:300px; padding-bottom: 0;" class="mcnImage" width="264">
-                                    </a>
-                                
-                                </td>
-                            </tr>
-                        </tbody></table>
-                    
-                    <table class="mcnImageGroupContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="273">
-                            <tbody><tr>
-                                <td class="mcnImageGroupContent" style="padding-right: 9px; padding-top: 0; padding-bottom: 0;" valign="top">
-                                
-                                    <a href="https://www.hrdistinctionawards.com/" title="" class="" target="_blank">
-                                        <img alt="" src="https://gallery.mailchimp.com/7a04711f6fe64e5092f8042f8/images/aaed9165-b52b-4bf5-8477-9a005108cd8f.jpg" style="max-width:300px; padding-bottom: 0;" class="mcnImage" width="264">
-                                    </a>
-                                
-                                </td>
-                            </tr>
-                        </tbody></table>
-                    
-                </td>
-            </tr>
-        
-    </tbody>
-</table><table class="mcnTextBlock" style="min-width:100%;" border="0" cellpadding="0" cellspacing="0" width="100%">
-    <tbody class="mcnTextBlockOuter">
-        <tr>
-            <td class="mcnTextBlockInner" style="padding-top:9px;" valign="top">
-              	<!--[if mso]>
-				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
-				<tr>
-				<![endif]-->
-			    
-				<!--[if mso]>
-				<td valign="top" width="600" style="width:600px;">
-				<![endif]-->
-                <table style="max-width:100%; min-width:100%;" class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tbody><tr>
-                        
-                        <td class="mcnTextContent" style="padding: 0px 18px 9px; font-size: 12px;" valign="top">
-                        
-                            For any further questions, please feel free to get in touch with us at <a href="mailto:info@hrevent.com?subject=HRD%20Awards%20entry%20deadline" target="_blank">info@hrevent.com</a>.<br>
-<br>
-Best regards,<br>
-<br>
-<strong>Louise Vandamme</strong><br>
-Events Manager<br>
-T: <strong>+44 (0)20 8080 9181</strong>
-                        </td>
-                    </tr>
-                </tbody></table>
-				<!--[if mso]>
-				</td>
-				<![endif]-->
-                
-				<!--[if mso]>
-				</tr>
-				</table>
-				<![endif]-->
-            </td>
-        </tr>
-    </tbody>
-</table><table class="mcnImageBlock" style="min-width:100%;" border="0" cellpadding="0" cellspacing="0" width="100%">
-    <tbody class="mcnImageBlockOuter">
-            <tr>
-                <td style="padding:9px" class="mcnImageBlockInner" valign="top">
-                    <table class="mcnImageContentContainer" style="min-width:100%;" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
-                        <tbody><tr>
-                            <td class="mcnImageContent" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top">
-                                
-                                    
-                                        <img alt="" src="https://gallery.mailchimp.com/7a04711f6fe64e5092f8042f8/images/01b94e7a-2a1e-404c-9983-0d08ab0fc766.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="middle" width="564">
-                                    
-                                
-                            </td>
-                        </tr>
-                    </tbody></table>
-                </td>
-            </tr>
     </tbody>
 </table></td>
 										</tr>
@@ -990,6 +878,97 @@ T: <strong>+44 (0)20 8080 9181</strong>
 									<![endif]-->
 								</td>
                             </tr>
+							<tr>
+								<td align="center" valign="top" id="templateColumns">
+									<table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+                                        <tr>
+                                            <td valign="top">
+												<!--[if gte mso 9]>
+												<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+												<tr>
+												<td align="center" valign="top" width="200" style="width:200px;">
+												<![endif]-->
+												<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="columnWrapper">
+													<tr>
+														<td valign="top" class="columnContainer"><table class="mcnButtonBlock" style="min-width:100%;" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody class="mcnButtonBlockOuter">
+        <tr>
+            <td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" class="mcnButtonBlockInner" align="center" valign="top">
+                <table class="mcnButtonContentContainer" style="border-collapse: separate ! important;border-radius: 3px;background-color: #D92F2F;" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody>
+                        <tr>
+                            <td style="font-family: Arial; font-size: 16px; padding: 15px;" class="mcnButtonContent" align="center" valign="middle">
+                                <a class="mcnButton " title="Delegates" href="http://" target="_blank" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">Delegates</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+													</tr>
+												</table>
+												<!--[if gte mso 9]>
+												</td>
+												<td align="center" valign="top" width="200" style="width:200px;">
+												<![endif]-->
+												<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="columnWrapper">
+													<tr>
+														<td valign="top" class="columnContainer"><table class="mcnButtonBlock" style="min-width:100%;" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody class="mcnButtonBlockOuter">
+        <tr>
+            <td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" class="mcnButtonBlockInner" align="center" valign="top">
+                <table class="mcnButtonContentContainer" style="border-collapse: separate ! important;border-radius: 3px;background-color: #D92F2F;" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody>
+                        <tr>
+                            <td style="font-family: Arial; font-size: 16px; padding: 15px;" class="mcnButtonContent" align="center" valign="middle">
+                                <a class="mcnButton " title="Exhibition" href="http://" target="_blank" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">Exhibition</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+													</tr>
+												</table>
+												<!--[if gte mso 9]>
+												</td>
+												<td align="center" valign="top" width="200" style="width:200px;">
+												<![endif]-->
+												<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="columnWrapper">
+													<tr>
+														<td valign="top" class="columnContainer"><table class="mcnButtonBlock" style="min-width:100%;" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody class="mcnButtonBlockOuter">
+        <tr>
+            <td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" class="mcnButtonBlockInner" align="center" valign="top">
+                <table class="mcnButtonContentContainer" style="border-collapse: separate ! important;border-radius: 3px;background-color: #D92F2F;" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody>
+                        <tr>
+                            <td style="font-family: Arial; font-size: 16px; padding: 15px;" class="mcnButtonContent" align="center" valign="middle">
+                                <a class="mcnButton " title="Packages" href="https://www.hrdsummit.com/" target="_blank" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">Packages</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+													</tr>
+												</table>
+												<!--[if gte mso 9]>
+												</td>
+												</tr>
+												</table>
+												<![endif]-->
+											</td>
+										</tr>
+									</table>
+								</td>
+                            </tr>
                             <tr>
 								<td align="center" valign="top" id="templateFooter">
 									<!--[if gte mso 9]>
@@ -999,7 +978,61 @@ T: <strong>+44 (0)20 8080 9181</strong>
 									<![endif]-->
 									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
 										<tr>
-                                			<td valign="top" class="footerContainer"></td>
+                                			<td valign="top" class="footerContainer"><table class="mcnTextBlock" style="min-width:100%;" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td class="mcnTextBlockInner" style="padding-top:9px;" valign="top">
+              	<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+			    
+				<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+                <table style="max-width:100%; min-width:100%;" class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                        
+                        <td class="mcnTextContent" style="padding: 0px 18px 9px;color: #000000;text-align: left;" valign="top">
+                        
+                            Best regards and we hope to see you in January.<br>
+<br>
+Karl Ghamsari<br>
+<span style="color:#FF0000">Karl.Ghamsari@Contentive.com<br>
+T: +44 (0)20 8080 9499</span>
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+                
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table class="mcnImageBlock" style="min-width:100%;" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody class="mcnImageBlockOuter">
+            <tr>
+                <td style="padding:0px" class="mcnImageBlockInner" valign="top">
+                    <table class="mcnImageContentContainer" style="min-width:100%;" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody><tr>
+                            <td class="mcnImageContent" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top">
+                                
+                                    
+                                        <img alt="" src="https://gallery.mailchimp.com/a13376bb3db01405b82edda38/images/84b18e13-f9f1-435f-956f-b7ab2736d802.jpg" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" align="middle" width="600">
+                                    
+                                
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table></td>
 										</tr>
 									</table>
 									<!--[if gte mso 9]>
