@@ -1,81 +1,382 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="315px" height="67px" viewBox="0 0 315 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard 1</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="50%" y1="0%" x2="174.793199%" y2="265.659467%" id="linearGradient-1">
-            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
-            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
-        </linearGradient>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.154769588 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-3" x="20" y="0" width="17" height="17"></rect>
-        <linearGradient x1="50%" y1="0%" x2="231.3017%" y2="178.349035%" id="linearGradient-4">
-            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
-            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
-        </linearGradient>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.118866055 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-6" x="20" y="20" width="17" height="17"></rect>
-        <linearGradient x1="50%" y1="0%" x2="182.772289%" y2="264.838006%" id="linearGradient-7">
-            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
-            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
-        </linearGradient>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0991508152 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-9" x="0" y="20" width="17" height="17"></rect>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Artboard-1" sketch:type="MSArtboardGroup">
-            <text id="Alicegoldsack" sketch:type="MSTextLayer" font-family="Abadi MT Condensed Extra Bold" font-size="44.4700012" font-style="condensed" font-weight="bold">
-                <tspan x="72" y="44" fill="#FFFAD2">Alice</tspan>
-                <tspan x="155.381252" y="44" fill="#FFE200">g</tspan>
-                <tspan x="177.160262" y="44" fill="#FFFFFF">oldsack</tspan>
-            </text>
-            <text id="Alicegoldsack-Copy" fill-opacity="0.801800272" fill="#FFFAD2" sketch:type="MSTextLayer" font-family="Abadi MT Condensed Extra Bold" font-size="44.4700012" font-style="condensed" font-weight="bold">
-                <tspan x="72" y="44">Alice</tspan>
-                <tspan x="155.381252" y="44" fill="#FFE200">g</tspan>
-                <tspan x="177.160262" y="44" fill="#FFFFFF">oldsack</tspan>
-            </text>
-            <text id="JEWELERY-DESIGN-&amp;-TU" sketch:type="MSTextLayer" font-family="Open Sans Condensed" font-size="10.6400003" font-style="condensed" font-weight="bold" fill="#FFD621">
-                <tspan x="181" y="56">JEWELERY DESIGN &amp; TUTITION</tspan>
-            </text>
-            <g id="Rectangle-1-+-Rectangle-1-Copy-+-Rectangle-1-Copy-2" sketch:type="MSLayerGroup" transform="translate(24.000000, 8.000000)">
-                <g id="Rectangle-1" filter="url(#filter-2)">
-                    <use fill="#FFD621" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
-                    <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
-                </g>
-                <g id="Rectangle-1-Copy" filter="url(#filter-5)">
-                    <use fill="#FFE9C9" sketch:type="MSShapeGroup" xlink:href="#path-6"></use>
-                    <use fill="url(#linearGradient-4)" xlink:href="#path-6"></use>
-                </g>
-                <g id="Rectangle-1-Copy-2" filter="url(#filter-8)">
-                    <use fill="#FFFFFF" sketch:type="MSShapeGroup" xlink:href="#path-9"></use>
-                    <use fill="url(#linearGradient-7)" xlink:href="#path-9"></use>
-                </g>
-            </g>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="315px"
+   height="67px"
+   viewBox="0 0 315 67"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="alice-goldsack-logo-wide.svg">
+  <metadata
+     id="metadata104">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Artboard 1</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1138"
+     inkscape:window-height="729"
+     id="namedview102"
+     showgrid="false"
+     inkscape:zoom="0.98412698"
+     inkscape:cx="157.5"
+     inkscape:cy="33.5"
+     inkscape:window-x="27"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Page-1" />
+  <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">Artboard 1</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8">
+    <linearGradient
+       x1="50%"
+       y1="0%"
+       x2="174.793199%"
+       y2="265.659467%"
+       id="linearGradient-1">
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.5"
+         offset="0%"
+         id="stop11" />
+      <stop
+         stop-color="#000000"
+         stop-opacity="0.5"
+         offset="100%"
+         id="stop13" />
+    </linearGradient>
+    <filter
+       x="-50%"
+       y="-50%"
+       width="200%"
+       height="200%"
+       filterUnits="objectBoundingBox"
+       id="filter-2">
+      <feOffset
+         dx="0"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset16" />
+      <feGaussianBlur
+         stdDeviation="2"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur18" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.154769588 0"
+         in="shadowBlurOuter1"
+         type="matrix"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix20" />
+      <feMerge
+         id="feMerge22">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode24" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode26" />
+      </feMerge>
+    </filter>
+    <rect
+       id="path-3"
+       x="20"
+       y="0"
+       width="17"
+       height="17" />
+    <linearGradient
+       x1="50%"
+       y1="0%"
+       x2="231.3017%"
+       y2="178.349035%"
+       id="linearGradient-4">
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.5"
+         offset="0%"
+         id="stop30" />
+      <stop
+         stop-color="#000000"
+         stop-opacity="0.5"
+         offset="100%"
+         id="stop32" />
+    </linearGradient>
+    <filter
+       x="-50%"
+       y="-50%"
+       width="200%"
+       height="200%"
+       filterUnits="objectBoundingBox"
+       id="filter-5">
+      <feOffset
+         dx="0"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset35" />
+      <feGaussianBlur
+         stdDeviation="2"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur37" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.118866055 0"
+         in="shadowBlurOuter1"
+         type="matrix"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix39" />
+      <feMerge
+         id="feMerge41">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode43" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode45" />
+      </feMerge>
+    </filter>
+    <rect
+       id="path-6"
+       x="20"
+       y="20"
+       width="17"
+       height="17" />
+    <linearGradient
+       x1="50%"
+       y1="0%"
+       x2="182.772289%"
+       y2="264.838006%"
+       id="linearGradient-7">
+      <stop
+         stop-color="#FFFFFF"
+         stop-opacity="0.5"
+         offset="0%"
+         id="stop49" />
+      <stop
+         stop-color="#000000"
+         stop-opacity="0.5"
+         offset="100%"
+         id="stop51" />
+    </linearGradient>
+    <filter
+       x="-50%"
+       y="-50%"
+       width="200%"
+       height="200%"
+       filterUnits="objectBoundingBox"
+       id="filter-8">
+      <feOffset
+         dx="0"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset54" />
+      <feGaussianBlur
+         stdDeviation="2"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur56" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0991508152 0"
+         in="shadowBlurOuter1"
+         type="matrix"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix58" />
+      <feMerge
+         id="feMerge60">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode62" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode64" />
+      </feMerge>
+    </filter>
+    <rect
+       id="path-9"
+       x="0"
+       y="20"
+       width="17"
+       height="17" />
+  </defs>
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     sketch:type="MSPage">
+    <g
+       id="Artboard-1"
+       sketch:type="MSArtboardGroup">
+      <text
+         id="Alicegoldsack"
+         sketch:type="MSTextLayer"
+         font-family="Abadi MT Condensed Extra Bold"
+         font-size="44.4700012"
+         font-style="condensed"
+         font-weight="bold">
+        <tspan
+           x="72"
+           y="44"
+           fill="#FFFAD2"
+           id="tspan70">Alice</tspan>
+        <tspan
+           x="155.381252"
+           y="44"
+           fill="#FFE200"
+           id="tspan72">g</tspan>
+        <tspan
+           x="177.160262"
+           y="44"
+           fill="#FFFFFF"
+           id="tspan74">oldsack</tspan>
+      </text>
+      <g
+         style="font-weight:bold;font-size:44.47000122px;font-family:'Abadi MT Condensed Extra Bold';fill:#fffad2;fill-opacity:0.80180024"
+         id="Alicegoldsack-Copy">
+        <path
+           d="m 80.055845,13.709154 7.013579,0 L 95.038414,44 l -7.686709,0 -1.06398,-6.014741 -5.775889,0 L 79.382715,44 72.151997,44 80.055845,13.709154 Z m 3.365649,8.272984 -1.932534,10.574654 3.821641,0 -1.889107,-10.574654 z"
+           style=""
+           id="path3433" />
+        <path
+           d="m 97.513794,13.709154 6.905006,0 0,30.290846 -6.905006,0 0,-30.290846 z"
+           style=""
+           id="path3435" />
+        <path
+           d="m 112.64836,13.209735 q 1.4114,0 2.56224,1.020552 1.15083,1.020552 1.15083,2.649092 0,1.541685 -1.1074,2.605664 -1.0857,1.06398 -2.60567,1.06398 -1.5634,0 -2.64909,-1.085694 -1.06398,-1.107407 -1.06398,-2.605664 0,-1.51997 1.10741,-2.58395 1.1074,-1.06398 2.60566,-1.06398 z m -3.47422,10.096949 6.8833,0 0,20.693316 -6.8833,0 0,-20.693316 z"
+           style=""
+           id="path3437" />
+        <path
+           d="m 132.92911,43.196587 q -2.23653,1.281118 -4.3862,1.281118 -3.77821,0 -6.38388,-3.105083 -2.58395,-3.126797 -2.58395,-7.686709 0,-4.538199 2.64909,-7.686709 2.67081,-3.170225 6.66616,-3.170225 1.75882,0 4.03878,0.868555 l 0,6.23188 q -1.4114,-1.020552 -2.51881,-1.020552 -1.58511,0 -2.6708,1.302832 -1.0857,1.302832 -1.0857,3.300508 0,1.997676 1.0857,3.365649 1.1074,1.34626 2.58395,1.34626 1.28111,0 2.60566,-1.150835 l 0,6.123311 z"
+           style=""
+           id="path3439" />
+        <path
+           d="m 153.40529,42.241177 q -3.97364,2.236528 -7.40443,2.236528 -4.47306,0 -7.27415,-3.018228 -2.77937,-3.018227 -2.77937,-7.730136 0,-4.559913 2.62738,-7.730137 2.64909,-3.170225 7.057,-3.170225 3.9085,0 6.2536,2.714233 2.3451,2.714234 2.3451,7.274146 l 0,1.715396 -11.11751,0 q 0.47771,2.084531 1.62855,3.126797 1.15083,1.042265 2.97479,1.042265 1.41141,0 2.58396,-0.629702 1.17254,-0.629702 3.10508,-2.258242 l 0,6.427305 z m -5.21133,-11.378067 0,-0.694844 q 0,-1.411401 -0.73827,-2.410239 -0.73827,-0.998838 -1.84568,-0.998838 -1.30283,0 -2.01939,1.020552 -0.69484,1.020552 -0.80341,3.083369 l 5.40675,0 z"
+           style=""
+           id="path3441" />
+        <path
+           d="m 158.7469,24.500947 q 3.53936,-1.671968 6.70959,-1.671968 2.34509,0 4.0822,0.825127 1.75883,0.825127 2.95309,2.670806 1.19426,1.845678 1.19426,4.711909 l 0,6.948438 q 0,3.018227 1.23769,6.014741 l -6.90501,0 q -0.39085,-0.868555 -0.6297,-1.975962 -1.02055,1.215977 -2.14967,1.845679 -1.10741,0.607988 -2.3451,0.607988 -2.41024,0 -4.32106,-1.91082 -1.88911,-1.932535 -1.88911,-4.690196 0,-6.210166 10.70494,-7.57814 -0.23885,-1.129121 -1.17255,-1.693681 -0.9337,-0.564561 -2.56224,-0.564561 -2.38852,0 -4.90733,1.954248 l 0,-5.493608 z m 8.64212,9.228394 q -4.34277,0.390849 -4.34277,3.235366 0,1.063979 0.65141,1.802251 0.65142,0.738271 1.54169,0.738271 1.04226,0 1.58511,-0.890268 0.56456,-0.890269 0.56456,-2.236529 l 0,-2.649091 z"
+           style=""
+           id="path3443" />
+        <path
+           d="m 167.9753,41.502905 q -0.89027,1.237691 -1.97596,1.867393 Q 164.91364,44 163.61081,44 q -2.90966,0 -5.0159,-3.039941 -2.10625,-3.039942 -2.10625,-7.317574 0,-4.169063 2.12796,-7.491284 2.12796,-3.322222 5.45018,-3.322222 1.25941,0 2.3451,0.542847 1.08569,0.521132 1.99768,1.606826 l 1.86739,-1.671968 4.60334,0 0,19.868189 q 0,4.625054 -2.56224,7.773565 -2.56223,3.170224 -7.27414,3.170224 -3.45251,0 -7.18729,-1.932534 l 0,-6.818154 q 3.27879,2.562236 5.71074,2.562236 1.88911,0 3.14852,-1.281118 1.2594,-1.259404 1.2594,-3.191939 l 0,-1.954248 z m 0,-11.877485 q -0.47771,-0.542847 -0.95541,-0.803414 -0.47771,-0.260566 -0.95541,-0.260566 -1.19426,0 -1.88911,1.302832 -0.69484,1.281118 -0.69484,3.36565 0,2.127959 0.67313,3.452505 0.67313,1.302832 1.75882,1.302832 1.04227,0 1.54169,-0.998838 0.52113,-0.998838 0.52113,-2.9748 l 0,-4.386201 z"
+           style="fill:#ffe200"
+           id="path3445" />
+        <path
+           d="m 187.95206,22.828979 q 4.27763,0 7.01357,2.822803 2.73595,2.822803 2.73595,7.903848 0,4.820478 -2.62738,7.882134 -2.62737,3.039941 -7.14386,3.039941 -4.51648,0 -7.03529,-3.018228 -2.51881,-3.018227 -2.51881,-7.686709 0,-4.863906 2.62738,-7.903848 2.64909,-3.039941 6.94844,-3.039941 z m 0.0651,5.298184 q -1.28112,0 -1.93254,1.389687 -0.65141,1.367974 -0.65141,4.125635 0,2.714234 0.6297,4.082207 0.65141,1.367974 1.93253,1.367974 1.30284,0 1.93254,-1.34626 0.65141,-1.367974 0.65141,-4.082207 0,-2.779375 -0.65141,-4.147349 -0.6297,-1.389687 -1.91082,-1.389687 z"
+           style="fill:#ffffff"
+           id="path3447" />
+        <path
+           d="m 201.28437,13.709154 6.90501,0 0,30.290846 -6.90501,0 0,-30.290846 z"
+           style="fill:#ffffff"
+           id="path3449" />
+        <path
+           d="m 223.4108,13.709154 6.92673,0 0,30.290846 -6.1016,0 -0.6297,-2.410239 q -0.97713,1.433115 -2.12796,2.171386 -1.15084,0.716558 -2.47538,0.716558 -3.14851,0 -5.12448,-3.213652 -1.97596,-3.235367 -1.97596,-7.469571 0,-4.407915 2.10625,-7.686709 2.12796,-3.278794 5.40675,-3.278794 0.99884,0 1.99768,0.434277 0.99883,0.412564 1.99767,1.281118 l 0,-10.83522 z m 0,16.024835 q -0.45599,-0.607988 -0.93369,-0.911983 -0.47771,-0.303994 -0.99884,-0.303994 -1.19426,0 -1.91082,1.367974 -0.71656,1.367974 -0.71656,3.626216 0,2.171387 0.67313,3.561074 0.69484,1.367974 1.82397,1.367974 0.97712,0 1.51997,-0.998838 0.54284,-1.020552 0.54284,-2.431953 l 0,-5.27647 z"
+           style="fill:#ffffff"
+           id="path3451" />
+        <path
+           d="m 233.79003,36.378432 q 3.32222,2.735948 5.75418,2.735948 0.93369,0 1.60682,-0.477705 0.67313,-0.499419 0.67313,-1.302832 0,-0.607989 -0.54284,-1.020552 -0.52114,-0.434278 -1.97597,-0.998838 -3.47421,-1.34626 -4.49477,-2.931372 -1.02055,-1.585113 -1.02055,-3.148511 0,-2.887945 2.36681,-4.646768 2.38853,-1.758823 5.79761,-1.758823 2.95308,0 5.84103,1.34626 l 0,6.145024 q -2.41024,-2.084531 -4.62506,-2.084531 -0.99883,0 -1.49825,0.325708 -0.49942,0.325708 -0.49942,0.998838 0,0.911982 2.14967,1.606826 5.84103,1.932534 5.84103,6.188452 0,2.996514 -2.41024,5.059332 -2.38852,2.062817 -6.16674,2.062817 -3.17022,0 -6.79644,-1.802251 l 0,-6.297022 z"
+           style="fill:#ffffff"
+           id="path3453" />
+        <path
+           d="m 253.65822,24.500947 q 3.53936,-1.671968 6.70958,-1.671968 2.3451,0 4.08221,0.825127 1.75882,0.825127 2.95308,2.670806 1.19427,1.845678 1.19427,4.711909 l 0,6.948438 q 0,3.018227 1.23769,6.014741 l -6.90501,0 q -0.39085,-0.868555 -0.6297,-1.975962 -1.02056,1.215977 -2.14968,1.845679 -1.1074,0.607988 -2.34509,0.607988 -2.41024,0 -4.32106,-1.91082 -1.88911,-1.932535 -1.88911,-4.690196 0,-6.210166 10.70494,-7.57814 -0.23886,-1.129121 -1.17255,-1.693681 -0.9337,-0.564561 -2.56224,-0.564561 -2.38852,0 -4.90733,1.954248 l 0,-5.493608 z m 8.64212,9.228394 q -4.34278,0.390849 -4.34278,3.235366 0,1.063979 0.65142,1.802251 0.65141,0.738271 1.54168,0.738271 1.04227,0 1.58512,-0.890268 0.56456,-0.890269 0.56456,-2.236529 l 0,-2.649091 z"
+           style="fill:#ffffff"
+           id="path3455" />
+        <path
+           d="m 284.90447,43.196587 q -2.23652,1.281118 -4.3862,1.281118 -3.77821,0 -6.38387,-3.105083 -2.58395,-3.126797 -2.58395,-7.686709 0,-4.538199 2.64909,-7.686709 2.6708,-3.170225 6.66616,-3.170225 1.75882,0 4.03877,0.868555 l 0,6.23188 q -1.4114,-1.020552 -2.5188,-1.020552 -1.58512,0 -2.67081,1.302832 -1.08569,1.302832 -1.08569,3.300508 0,1.997676 1.08569,3.365649 1.10741,1.34626 2.58395,1.34626 1.28112,0 2.60566,-1.150835 l 0,6.123311 z"
+           style="fill:#ffffff"
+           id="path3457" />
+        <path
+           d="m 288.92154,13.709154 6.86158,0 0,15.872838 3.30051,-6.275308 6.42731,0 -3.97364,5.775889 L 306.35778,44 l -7.27415,0 -2.3451,-7.86042 -0.95541,1.367974 0,6.492446 -6.86158,0 0,-30.290846 z"
+           style="fill:#ffffff"
+           id="path3459" />
+      </g>
+      <text
+         id="JEWELERY-DESIGN-&amp;-TU"
+         sketch:type="MSTextLayer"
+         font-family="Open Sans Condensed"
+         font-size="10.6400003"
+         font-style="condensed"
+         font-weight="bold"
+         fill="#FFD621">
+        <tspan
+           x="181"
+           y="56"
+           id="tspan84">JEWELERY DESIGN &amp; TUTITION</tspan>
+      </text>
+      <g
+         id="Rectangle-1-+-Rectangle-1-Copy-+-Rectangle-1-Copy-2"
+         sketch:type="MSLayerGroup"
+         transform="translate(24.000000, 8.000000)">
+        <g
+           id="Rectangle-1"
+           filter="url(#filter-2)">
+          <use
+             fill="#FFD621"
+             sketch:type="MSShapeGroup"
+             xlink:href="#path-3"
+             id="use88" />
+          <use
+             fill="url(#linearGradient-1)"
+             xlink:href="#path-3"
+             id="use90" />
         </g>
+        <g
+           id="Rectangle-1-Copy"
+           filter="url(#filter-5)">
+          <use
+             fill="#FFE9C9"
+             sketch:type="MSShapeGroup"
+             xlink:href="#path-6"
+             id="use93" />
+          <use
+             fill="url(#linearGradient-4)"
+             xlink:href="#path-6"
+             id="use95" />
+        </g>
+        <g
+           id="Rectangle-1-Copy-2"
+           filter="url(#filter-8)">
+          <use
+             fill="#FFFFFF"
+             sketch:type="MSShapeGroup"
+             xlink:href="#path-9"
+             id="use98" />
+          <use
+             fill="url(#linearGradient-7)"
+             xlink:href="#path-9"
+             id="use100" />
+        </g>
+      </g>
     </g>
+  </g>
 </svg>
