@@ -115,14 +115,7 @@ button.btn.btn-default.btn-lg.btn-block {
 @media screen and (min-width: 104em) {
 
 .main-content {
-	
-position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-	background-color: #4cf94b;
+	margin-top: 400px;
 }
  
 }
