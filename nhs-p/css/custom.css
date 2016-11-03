@@ -3,6 +3,8 @@ html {
   min-height: 100%;
 }
 
+/* My Comment */
+
 body {
 	background-color: #f0f6f7;
 	/* Margin bottom by footer height */
@@ -102,8 +104,7 @@ button.btn.btn-default.btn-lg.btn-block {
 }
 
 .v-space {
-	margin-top: 5rem;
-	
+	height: 10vh;	
 }
 
 .well {
