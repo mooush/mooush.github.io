@@ -1,0 +1,112 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	background-color: #f0f6f7;
+	/* Margin bottom by footer height */
+  	margin-bottom: 60px;
+	background: transparent url(../img/test.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='path/to/image/1.jpg',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='path/to/image/1.jpg',sizingMethod='scale')";
+	margin-bottom: 0;
+	color: #054b98;
+}
+
+
+.container {
+  width: auto;
+  max-width: 1000px;
+  padding: 0 15px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #1d88c6;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #f0f6f7;
+}
+
+.footer img {
+	max-width: 60px;
+	}
+
+form.form-signin {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+input#inputPassword.form-control {
+	margin-top: 20px;
+}
+
+.main-content {
+	margin-bottom: 160px;
+}
+
+.nhs-logo {
+	margin-left: 20px;
+}
+
+h2.st-guys-heading {
+	margin-top: 84px;
+}
+
+h2.st-guys-heading span {
+	color: #1d87c5;
+}
+
+div.userlogo {
+	float: left;
+	margin-bottom: 10px;
+	color: #044389;
+}
+
+i.fa.fa-home.fa-2x {
+	color: #054a98;
+}
+
+label.checklabel {
+	color: #04478f;
+}
+
+button.btn.btn-default.btn-lg.btn-block {
+	background-color: #054b98;
+	color: #fff;
+	font-size: 2em;
+}
+
+.form-control.input-lg {
+	background-color: #eaf7ff;
+}
+
+.row.head {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.register {
+	margin-top: 5px;
+}
+
+.v-space {
+	margin-top: 5rem;
+	
+}
+
+.well {
+	background-color: #fff;
+}
+
