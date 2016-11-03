@@ -56,7 +56,8 @@ input#inputPassword.form-control {
 
 .main-content {
 	margin-bottom: 160px;
-}
+
+ }
 
 .nhs-logo {
 	margin-left: 20px;
@@ -113,8 +114,15 @@ button.btn.btn-default.btn-lg.btn-block {
 
 @media screen and (min-width: 104em) {
 
-.v-space {
-	height: 22rem;
-
+.main-content {
+	
+position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+	background-color: #4cf94b;
 }
+ 
 }
