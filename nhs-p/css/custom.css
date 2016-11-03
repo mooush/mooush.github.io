@@ -104,10 +104,17 @@ button.btn.btn-default.btn-lg.btn-block {
 }
 
 .v-space {
-	height: 10vh;	
+	height: 10vh;
 }
 
 .well {
 	background-color: #fff;
 }
 
+@media screen and (min-width: 104em) {
+
+.v-space {
+	height: 22rem;
+
+}
+}
