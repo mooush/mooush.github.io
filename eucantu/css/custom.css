@@ -11,15 +11,6 @@ body
 	padding-top: 30px;
 }
 
-h1 {
-	font-weight: bold;
-	color: #353535;
-	font-size: 10em;
-	margin-bottom: 30px;
-	font-family: 'Anton', sans-serif;
-	margin-top: 37px;
-}
-
 div.row.filum {
 	background-color: #000;
 	padding-top: 20px;
@@ -36,6 +27,15 @@ div.row.filum {
 	opacity: 0.69;
 }
 
+h1 {
+	font-weight: bold;
+	color: #353535;
+	font-size: 10em;
+	margin-bottom: -48px;
+	font-family: 'Anton', sans-serif;
+	margin-top: 37px;
+}
+
 h2, h3, h4, h5, h6 {
 	color: #353535;
 	text-transform: uppercase;
@@ -43,8 +43,8 @@ h2, h3, h4, h5, h6 {
 }
 
 .selections {
-	margin-top: 80px;
 	margin-bottom: 40px;
+	margin-top: 50px;
 }
 
 .selections img {
@@ -59,3 +59,14 @@ span {
 .row {
 max-width: 1000px;	
 }
+
+/* Small only */
+
+@media screen and (max-width: 39.9375em) {
+
+h1 {
+	color: #353535;
+	margin-bottom: -48px;
+	margin-top: 37px;
+	font: bold 5em 'Anton', sans-serif;
+}}
